@@ -1,0 +1,18 @@
+footer {
+    width: 100%;
+    background-color: #143774;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1em 0;
+}
+
+footer p:first-child {
+    opacity: 54%;
+    font-weight: bold;
+}
+
+footer p:last-child {
+    opacity: 54%;
+    margin-bottom: 0;
+}

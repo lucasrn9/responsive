@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #707070;
+  font-size: 1.125rem;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #143774;
+  margin: 0;
+}
+
+hr {
+    width: 100%;
+  margin: 0 0 1.1em 0;
+}
+
+.main {
+  width: 95%;
+  max-width: 980px;
+  display: flex;
+  margin: 3em auto;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  width: 77%;
+  max-width: 714px;
+  margin-right: 40px;
+}
+
+.thumbnail {
+  width: 100%;
+  max-width: 714px;
+}
+
+.date {
+  font-family: "Segoe UI", "Ubuntu", sans-serif;
+  font-size: 0.875rem;
+  margin: 1.25em 0;
+  display: block;
+}
+
+.post .post-image-wrapper .date {
+  margin: 19px 0;
+}
+
+.resume-content-container {
+  margin: 28px 0;
+}
+
+.continue-reading {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #1792d2;
+  text-decoration: none;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  margin: 1.75rem 0;
+}
+
+.post {
+  display: flex;
+  margin: 1.75rem 0;
+}
+
+.post-image-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-image {
+  max-height: 242px;
+  object-fit: cover;
+}
+
+.post-content {
+  margin: 0 1.5rem;
+}
+
+.right-container {
+  width: 23%;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  border: 20px solid #ebebeb;
+  max-width: 356px;
+  padding: 1.25em;
+  margin-bottom: 1em;
+}
+
+.recent-posts-container {
+  display: flex;
+  flex-direction: column;
+  border: 20px solid #ebebeb;
+  max-width: 356px;
+  padding: 1.25em;
+}
+
+.recent-posts-container p{
+    color: #143774;
+}
+
+.title {
+  color: #143774;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.content {
+  font-size: 0.875rem;
+  margin: 1.5rem 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-container,
+  .right-container {
+    width: 100%;
+  }
+  .left-container {
+    margin-right: 0;
+  }
+
+  .right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .post {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .post-image-wrapper{
+    align-items: center;
+}
+
+  .post-image {
+    width: 100%;
+    max-height: none;
+  }
+
+  .about-me-container {
+    width: 80%;
+    max-width: none;
+    align-items: center;
+  }
+
+  .about-me-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  .recent-posts-container {
+    width: 80%;
+    max-width: none;
+    align-items: center;
+  }
+
+  .recent-posts-image {
+    width: 100%;
+    max-height: 87px;
+    max-width: 420px;
+    object-fit: cover;
+  }
+
+  .post-content {
+    margin: 0;
+  }
+}
